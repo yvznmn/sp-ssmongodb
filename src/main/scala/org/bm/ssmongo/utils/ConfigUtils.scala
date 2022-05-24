@@ -2,7 +2,7 @@ package org.bm.ssmongo.utils
 
 import java.util.Properties
 import org.apache.log4j.PropertyConfigurator
-import org.bm.ssmongo.core.ss.getClass
+import .getClass
 import org.apache.log4j.Logger
 
 object ConfigUtils {
