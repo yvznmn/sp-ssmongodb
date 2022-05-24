@@ -2,13 +2,10 @@ package org.bm.ssmongo.utils
 
 import java.util.Properties
 import org.apache.log4j.PropertyConfigurator
-import .getClass
 import org.apache.log4j.Logger
 
 object ConfigUtils {
 
-//  var env:String = "PROD"
-  val logger:Logger = Logger.getLogger(this.getClass)
 
   def read_environment_variables(env:String): Properties = {
 
